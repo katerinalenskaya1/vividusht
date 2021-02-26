@@ -6,7 +6,7 @@ When I click on element located `By.xpath(/html/body/header/nav/div/a[2])`
 Then the page with the URL 'https://trello.com/signup' is loaded
 
 Scenario: Enter email
-When I enter `<email>` in field located `By.xpath(//*[@id="email"])`
+When I enter `<email>` in field located `By.xpath(//*[@id="email"])`  
 When I click on element located `By.xpath(//*[@id="signup-submit"])`
 Then the page load time should be less than '25000' milliseconds
 Examples: 
